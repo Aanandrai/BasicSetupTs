@@ -32,12 +32,4 @@ if (process.env.NODE_ENV === "production" && process.env.DATABASE_URL) {
   );
 }
 
-sequelize.authenticate()
-  .then(() => {
-    console.log('Connection has been established successfully.');
-  })
-  .catch((err) => {
-    console.error('Unable to connect to the database:', err);
-  });
-
 export default sequelize;
