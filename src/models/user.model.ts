@@ -76,6 +76,10 @@ User.init(
       allowNull: false,
       unique: true,
     },
+    phoneNumber:{
+      type: DataTypes.STRING,  // Use Sequelize.STRING for the column type
+      allowNull: true, 
+    }
   },
   {
     sequelize,
