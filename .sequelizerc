@@ -1,0 +1,5 @@
+{
+  "config":"src/db/sequelizer.js",
+  "migrations-path": "src/db/migrations",
+  "models-path": "src/db/models"
+}
